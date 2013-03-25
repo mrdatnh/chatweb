@@ -1,3 +1,3 @@
 chatweb
 =======
-Demo
+Chat client and server
