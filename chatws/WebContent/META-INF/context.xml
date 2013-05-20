@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+	<Resource
+		name="jdbc/ChatOracleDS"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="oracle.jdbc.driver.OracleDriver"
+		url="jdbc:oracle:thin:@14.160.91.174:1522:vhc"
+		removeAbandoned="true"
+		maxActive="75"
+		maxIdle="30"
+		maxWait="-1"
+		username="miateam"
+		password="miateam"
+		validationQuery="select 1 from dual"
+	/>
+
+</Context>
